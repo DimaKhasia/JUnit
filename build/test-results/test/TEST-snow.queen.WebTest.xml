@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="snow.queen.WebTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-05-29T20:07:05" hostname="MacBook-Air-Dmitrij.local" time="17.657">
+  <properties/>
+  <testcase name="тестирование кнопки Рассрочка на странице снежная королева" classname="snow.queen.WebTest" time="9.283"/>
+  <testcase name="тестирование кнопки Адреса магазинов на странице снежная королева" classname="snow.queen.WebTest" time="2.511"/>
+  <testcase name="тестирование кнопки Где мой заказ? на странице снежная королева" classname="snow.queen.WebTest" time="1.596"/>
+  <testcase name="тестирование кнопки Акции на странице снежная королева" classname="snow.queen.WebTest" time="2.001"/>
+  <testcase name="тестирование кнопки Lookbook на странице снежная королева" classname="snow.queen.WebTest" time="2.263"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/khasia/IdeaProjects/JUnit/build/downloads/1685390825985_2005_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/khasia/.cache/selenium/chromedriver/mac-arm64/113.0.5672.63/chromedriver
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 13311
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+мая 30, 2023 12:07:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 110
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=113.0.5672.126 Platform=MAC
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.12.4
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (dd00f629944bd97590bff36dd1159ca0)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on MAC (dd00f629944bd97590bff36dd1159ca0),proxy=null,downloadsFolder=/Users/khasia/IdeaProjects/JUnit/build/downloads/1685390825985_2005_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on MAC (dd00f629944bd97590bff36dd1159ca0), null
+]]></system-err>
+</testsuite>
