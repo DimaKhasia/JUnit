@@ -1,4 +1,4 @@
-package snow.queen;
+package snow_queen;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;

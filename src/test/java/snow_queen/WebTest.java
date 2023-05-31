@@ -1,4 +1,4 @@
-package snow.queen;
+package snow_queen;
 
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.stream.Stream;
 import static com.codeborne.selenide.Selenide.*;
 
-public class WebTest extends TestBase{
+public class WebTest extends TestBase {
     @CsvSource(value = {
             "Рассрочка, Рассрочка и кредит",
             "Адреса магазинов, Адреса магазинов «Снежная Королева»",
