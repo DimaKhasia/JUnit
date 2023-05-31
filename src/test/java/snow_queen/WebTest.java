@@ -22,6 +22,7 @@ public class WebTest extends TestBase {
             "Адреса магазинов, Адреса магазинов «Снежная Королева»",
             "Где мой заказ?, Где мой заказ?"
     })
+    @ParameterizedTest(name = "тестирование раздела {0}")
     @DisplayName("Тест для проверки внутренних наименований разделов")
     @Tags({@Tag("CRITICAL"), @Tag("WEB")})
     void officeHeadButtonTest(String razdel, String result) {
@@ -37,6 +38,7 @@ public class WebTest extends TestBase {
         );
     }
     @MethodSource
+    @ParameterizedTest(name = "тестирование отображения разделов в боковом меню")
     @DisplayName("Тест для проверки отображения разделов в боковом меню")
     @Tags({@Tag("CRITICAL"), @Tag("WEB")})
     void sideMenuTest(List<String> result) {
